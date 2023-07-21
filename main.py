@@ -19,7 +19,7 @@ x = 200
 y = 200
 scale = 2 
 player = pygame.image.load('images/player.png')
-player = pygame.transform.scale(player,(player.get_width()* 3, player.get_height()* scale))
+player = pygame.transform.scale(player,(player.get_width()* scale, player.get_height()* scale))
 rect = player.get_rect()
 rect.center = (x,y)
 # Just for quitting out the game
